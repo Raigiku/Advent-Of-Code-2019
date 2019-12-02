@@ -1,6 +1,6 @@
 pub fn solution() {
     let input = std::fs::read_to_string("./src/day_2/input.txt").unwrap();
-    let mut input: Vec<usize> = input
+    let input: Vec<usize> = input
         .trim()
         .split(',')
         .map(|line| line.parse().unwrap())

@@ -5,7 +5,7 @@ pub fn solution() {
         .split(',')
         .map(|line| line.parse().unwrap())
         .collect();
-    println!("{:?}", noun_verb_result(input, 19690720));
+    println!("{:?}", noun_verb_result(input, 19_690_720));
 }
 
 pub fn opcode_output(instruction_pointer: usize, mut input: Vec<usize>) -> Vec<usize> {
